@@ -27,7 +27,7 @@ app.post("/webhook", (req, res) => {
     res.sendStatus(404);
   }
 });
-// Adds support for GET requests to our webhook
+// Adds support for GET requests to ourwebhook
 app.get("/webhook", (req, res) => {
   // Your verify token. Should be arandom string.
   let VERIFY_TOKEN = "Holla";
